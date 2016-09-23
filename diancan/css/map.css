@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../img/bg.jpg);
+	font-family: "微软雅黑";
+	overflow: hidden;
+}
+.search {
+	height: 600px;
+	width: 100%;
+	margin: 80px auto;
+
+}
+.search h1{
+	text-align: center;
+	background: #FF00FF;
+	line-height: 50px;
+	font-weight: 500;
+}
+.search .box {
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	height: 40px;
+	width: 620px;
+	box-shadow: 0px 0px 30px 0px #000;
+}
+.search .box .b_search {
+	width: 515px;
+	height: 40px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	padding-left: 10px;
+	outline: none;
+}
+.search .box .b_btn {
+	width: 80px;
+	height: 40px;
+	font-size:18px;
+	font-family: "微软雅黑";
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background: #EEC900;
+}
+.search .box .b_btn:hover {
+	background: #000;
+}

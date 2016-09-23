@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/** {
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+}*/
+body {
+	border: 1px solid #999;
+	background: white;
+	padding: 20px;
+}
+.commen {
+	background: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+}
+.commen .team-logo {
+	width: 200px;
+	background: white;
+	padding: 20px;
+	border: 1px solid #999;
+	float: left;
+}
+.logo {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	background: url(../img/teamlogo.jpg);
+	float: left;
+}
+.commen .team-logo #team-text {
+	width: 80px;
+	height: 80px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: 600;
+	float: left;
+	margin-left: 20px;
+}
+.commen .members {
+	width: 80px;
+	background-color: white;
+	border: 1px solid #999;
+	float: right;
+	padding: 20px;
+}
+.commen .members .logo1 {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	background: url(../img/1.jpg);
+	margin-bottom: 20px;
+}
+.commen .members .logo2 {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	background: url(../img/2.jpg);
+	margin-bottom: 20px;
+}
+.commen .members .logo3 {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	background: url(../img/3.jpg);
+	margin-bottom: 20px;
+}
+.commen .members .logo4 {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	background: url(../img/4.jpg);
+
+}
+.commen .team-ifo {
+	margin: 0 140px 0 260px;
+	border: 1px solid #999999;
+	background: white;
+	padding: 20px;
+}
+.commen .team-ifo h1 {
+	text-align: center;
+}
+.commen .team-ifo p {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 3em;
+}

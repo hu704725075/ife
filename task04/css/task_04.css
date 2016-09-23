@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+
+}
+.top-circle {
+	width: 50px;
+	height: 50px;
+	background: #fc0;
+	position: absolute;
+	border-radius: 0 0 50px 0;
+}
+.bottom-circle {
+	width: 50px;
+	height: 50px;
+	background: #fc0;
+	position: absolute;
+	border-radius: 50px 0 0 0;
+	right: 0;
+	bottom: 0;
+}

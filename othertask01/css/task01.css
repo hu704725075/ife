@@ -1,0 +1,239 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: inherit; 
+    vertical-align: baseline; 
+} 
+
+#header{
+
+	background-color:#B3C3D2;
+	height: 70px;
+}
+
+#header.header-logo{
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin-left: 20px;
+	border-left: 20px;
+}
+#header .header-nav{
+	float: right;
+	height: 50px;
+	margin-top: -40px;
+}
+#header .header-logo img{
+	height: 70px;
+
+}
+#header .header-nav li{
+	display: inline-block;
+}
+#header .header-nav a:link,#header .header-nav a:active{
+	text-decoration: none;
+	color: white;
+}
+#header .header-nav a:visited{
+	text-decoration: none;
+	color: white;
+}
+#header .header-nav a:hover{
+	text-decoration: none;
+	color: #F1B4C3;
+}
+#header .header-nav a.active{
+	text-decoration: none;
+	color: gray;
+}
+
+div#passage-body{
+	background-color: #DCDCDC;
+	margin: 0 auto;
+	padding: 20px;
+}
+div#passage-body .passage{
+	background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow:3px 3px 3px #333;
+}
+div.passage h2{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	font-size: 26px;
+	font-weight: 600;
+}
+div.passage h3{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #878586;
+}
+div.passage p.passage-info{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+}
+div.passage p{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: normal;
+	text-indent: 30px;
+}
+div.passage ul li{
+	list-style-type: none;
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+div.passage div.picture{
+	border: solid 1px #DCDCDC;
+	margin: 20px;
+	width: 240px;
+}
+div.passage div.picture p{
+	text-align: center;
+}
+div.passage div.picture img{
+	width: 200px;
+	height: 130px;
+	margin: 20px;
+}
+div.passage ol
+{
+	margin-left: 50px;
+}
+div.passage ol li{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+div.passage table{
+	border: 1px solid  white;
+	width: 100%;
+	border-spacing: 0;
+}
+div.passage tr th{
+	background-color: black;
+	border: 1px solid  #DCDCDC;
+	color: white;
+}
+div.passage tr td{
+	border: 1px solid  #DCDCDC;
+}
+div.passage tr.tablesum{
+	background-color: #DCDCDC;
+	border: 1px solid  #CCCCCC;
+}
+div#sidebar{
+
+	padding: 20px;
+	background-color:  #FFFFFF;
+}
+div#sidebar div.sidebar-content{
+	
+	background: white;
+	padding: 20px;
+}
+div#sidebar h2{
+	margin-left: 20px;
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+	border-left: 3px solid #DCDCDC;
+}
+div#sidebar div.inp{
+	display: block;
+	margin: 20px;
+	text-align: center;
+}
+div#sidebar div.inp p{
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding-right: 10px;
+}
+
+div#sidebar div.inp input[type="submit"]{
+	width: 100%;
+	background: #3355D0;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+	font-weight: bold;
+}
+div#sidebar div.tip{
+	
+	margin: 20px;
+	height: 25px;
+	text-align: center;
+	float: center;
+}
+div#sidebar div.tip div.tip-left{
+	float: left;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+}
+
+div#sidebar div.tip div.tip-right{
+
+	width: 100%;
+	text-align: center;
+}
+div#sidebar div.tip p{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+    text-align: center;
+
+}
+div#sidebar div.inp div.buttonset {
+	background-color: #3355D0;
+	width: 80%;
+	text-align: center;
+}
+
+div#footer{
+	background-color: #B3C3D2;
+	height: 40px;
+	padding: 20px;
+}
+div#footer div.copy{
+
+}
+div#footer p{
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
